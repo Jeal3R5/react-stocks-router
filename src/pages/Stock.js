@@ -2,19 +2,37 @@ import stocks from "../data";
 
 export default function Stock() {
   return (
-    <>
+    <div className="oneStock">
       <h1>{stocks[0].name}</h1>
-      <div>Symbol: {stocks[0].symbol}</div>
+      <div>
+        <strong>Symbol: </strong>
+        {stocks[0].symbol}
+      </div>
       <br />
-      <div>Last Price: {stocks[0].lastPrice}</div>
+      <div>
+        <strong>Last Price: </strong>
+        {stocks[0].lastPrice}
+      </div>
       <br />
-      <div>Change: {stocks[0].change}</div>
+      <div>
+        <strong>Change: </strong>
+        {stocks[0].change}
+      </div>
       <br />
-      <div>High: {stocks[0].high}</div>
+      <div>
+        <strong>High: </strong>
+        {stocks[0].high}
+      </div>
       <br />
-      <div>Low: {stocks[0].low}</div>
+      <div>
+        <strong>Low: </strong>
+        {stocks[0].low}
+      </div>
       <br />
-      <div>Open: {stocks[0].open}</div>
-    </>
+      <div>
+        <strong>Open: </strong>
+        {stocks[0].open}
+      </div>
+    </div>
   );
 }

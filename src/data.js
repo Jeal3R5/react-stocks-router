@@ -46,7 +46,7 @@ const stocks = [
   },
   {
     name: "Intel Corporation",
-    symbol: "intl",
+    symbol: "INTL",
     lastPrice: 36.16,
     change: -0.370000000000005,
     high: 36.78,

@@ -44,7 +44,7 @@
 
 
 .nav {
-  background-color: purple;
+  background-color: #CCE6B3;
   color: white;
   text-align: center;
   
@@ -56,11 +56,27 @@
   padding: 30px;
   margin: 0;
   font-family: 'Abril Fatface', cursive;
-  color: white;
+  color: #50C878;
   font-size: 25px;
 }
 
 .nav a:hover {
-  background-color: pink;
+  background-color: #E6B3B3;
+}
+
+body {
+  background-color: #B3B3E6;
+  text-align: left;
+}
+
+.oneStock h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.oneStock {
+  text-align: left;
+  padding: 20px;
+  font-size: 25px;
 }
 
