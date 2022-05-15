@@ -58,6 +58,9 @@
   font-family: 'Abril Fatface', cursive;
   color: white;
   font-size: 25px;
+}
 
+.nav a:hover {
+  background-color: pink;
 }
 

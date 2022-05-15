@@ -1,3 +1,12 @@
 export default function About() {
-  return <h1>This is the About Page</h1>;
+  return (
+    <>
+      <h1>About StockSwipe</h1>
+      <h4>
+        Welcome to StockSwipe, where you can choose to swipe left or right for
+        the stock of your dreams! <br />
+        Get the portfolio you've been waiting for...
+      </h4>
+    </>
+  );
 }
