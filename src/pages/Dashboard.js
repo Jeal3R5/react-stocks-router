@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import stocks from "../data";
 
-export default function Dashboard(props) {
+export default function Dashboard() {
   return (
     <div className="stocks">
       {stocks.map(({ name, symbol }) => (
@@ -15,3 +15,8 @@ export default function Dashboard(props) {
   );
 }
 
+// function Dashboard(props){
+//   return props.stocks.map((stock) => <Link to={`/stock/${stock.symbol}`}><h3>{stock.name}</h3></Link>)
+// }
+
+// export default Dashboard

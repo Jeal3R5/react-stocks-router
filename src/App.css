@@ -80,3 +80,12 @@ body {
   font-size: 25px;
 }
 
+.about h1{
+  font-family:  'Dancing Script', cursive;
+  font-size: 35px;
+}
+
+.home {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+}
