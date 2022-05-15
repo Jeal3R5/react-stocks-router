@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* My own CSS  */
+
+
+.nav {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.nav a{
+  display: inline-block;
+  padding: 30px;
+  margin: 0;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 25px;
+
+}
+
