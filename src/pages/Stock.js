@@ -7,7 +7,7 @@ function Stock() {
   const stock = stocks.find((stock) => stock.symbol === symbol);
 
   return (
-    <div>
+    <div className="singleStock">
       <h1>{stock.name}</h1>
       <h3>{stock.symbol}</h3>
       <h4>Last Price: {stock.lastPrice}</h4>

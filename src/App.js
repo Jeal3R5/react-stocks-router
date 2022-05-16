@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import Stock from "./pages/Stock";
+import Footer from "./components/Footer";
 
 function App() {
   //console.log(stocks);
@@ -18,6 +19,7 @@ function App() {
         <Route path="/stocks" element={<Dashboard />} />
         <Route path="/stocks/:symbol" element={<Stock />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -47,6 +47,8 @@
   background-color: #CCE6B3;
   color: white;
   text-align: center;
+
+  
   
 
 }
@@ -69,14 +71,28 @@ body {
   text-align: left;
 }
 
-.singleStock h1 {
-  text-align: center;
-  font-size: 35px;
+.stocks{
+  font-family: 'Berkshire Swash', cursive;
 }
 
-.singleStock {
+
+
+
+.singleStock h1{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Berkshire Swash', cursive;
+  
+}
+.singleStock h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+.singleStock h4{
   text-align: left;
   padding: 20px;
+  font-family: 'Berkshire Swash', cursive;
   font-size: 25px;
 }
 
@@ -88,4 +104,12 @@ body {
 .home {
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
 }

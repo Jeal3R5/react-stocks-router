@@ -7,7 +7,8 @@ export default function Dashboard() {
       {stocks.map(({ name, symbol }) => (
         <Link key={symbol} to={`/stocks/${symbol}`}>
           <h2>
-            {name} ** {symbol} **
+            {name} ** {symbol} ** <br />
+            <br />
           </h2>
         </Link>
       ))}
