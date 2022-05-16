@@ -47,10 +47,6 @@
   background-color: #CCE6B3;
   color: white;
   text-align: center;
-
-  
-  
-
 }
 
 .nav a{
@@ -72,11 +68,8 @@ body {
 }
 
 .stocks{
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Emilys Candy', cursive;
 }
-
-
-
 
 .singleStock h1{
   text-align: center;
